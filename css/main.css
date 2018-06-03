@@ -1,0 +1,176 @@
+/*****BASE STYLES*****/
+body{
+  font-family: 'ABeeZee', sans-serif;
+}
+p{
+  font-size: 20px;
+}
+h1{
+  font-size: 72px;
+  font-family: 'Crete Round',serif;
+}
+h2{
+  font-size:36px;
+  font-family: 'Crete Round',serif;
+  font-stretch: expanded;
+  color:white;
+ }
+h3{
+  font-size: 20px;
+}
+
+/*****GRID*****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+.third-width{
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+}
+/*****HEADER*****/
+header{
+  height:70px;
+  margin:0 auto;
+}
+header p{
+  float:left;
+  padding: 30px 0;
+  margin:0;
+  color:#2a4721;
+}
+header p span{
+  font-weight: bold;
+}
+header nav{
+  float:right;
+  padding:30px 0;
+}
+header nav ul{
+  margin:0 auto;
+  list-style: none;
+  clear:both;
+}
+header nav ul li{
+  display:inline;
+  padding-left: 20px;
+}
+header nav ul li a{
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 20px;
+  color: #2a4721;
+}
+/*****INTRO*****/
+#intro {
+    height:730px;
+    background: url(../img/hero2.png);
+    background-size: cover;
+    border-top:3px solid #2a4721;
+    border-bottom:3px solid #2a4721;
+}
+#intro h1 {
+    width: 1000px;
+    clear: both;
+    line-height: 80px;
+    color: #72744f;
+    padding-top: 175px;
+}
+#intro h1 span {
+    color:#3e280d;
+}
+/*****ABOUT*****/
+#about{
+  height: 1000px;
+  background-color: #769556;
+  margin:0 auto;
+  text-align: center;
+  border-bottom:3px solid #2a4721;
+}
+#about .full-width {
+  padding:100px 0;
+}
+#about h2, h3, p {
+  color:#3e280d;
+}
+#about h3 {
+  padding:10px 0;
+}
+#about p {
+  line-height:auto;
+  width:600px;
+  padding-left: 300px;
+}
+#about img{
+  border:5px solid #72744f;
+}
+/*****PORTFOLIO*****/
+#portfolio {
+  height: 850px;
+  margin:0 auto;
+  text-align: center;
+}
+#portfolio .full-width {
+  padding:170px 0;
+}
+#portfolio h2, p {
+  color:#3e280d;
+}
+#portfolio h3{
+  color:#72744f;
+}
+#portfolio img{
+  border:5px solid #769556;
+}
+/*****CONTACT*****/
+#contact {
+  height: 650px;
+  margin:0 auto;
+  text-align: center;
+  background-color: #2a4721;
+}
+#contact .full-width{
+  padding:170px 0;
+}
+#contact .third-width{
+  justify-content: center;
+}
+#contact h3{
+  color:white;
+}
+#contact p{
+  color:white;
+  line-height: 28px;
+}
+#contact a{
+text-decoration:none;
+font-weight:700;
+color:white;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 35px;
+}
+/*****FOOTER*****/
+footer {
+  height: 70px;
+  background-color: #2a4721;
+  margin:0 auto;
+  clear:both;
+  text-align: center;
+  padding:10px;
+}
+footer p{
+  color:white;
+}
