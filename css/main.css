@@ -140,6 +140,7 @@ header nav ul li a{
 }
 #contact .third-width{
   justify-content: center;
+  padding-top: 30px;
 }
 #contact h3{
   color:white;
