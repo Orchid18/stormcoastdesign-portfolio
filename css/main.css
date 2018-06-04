@@ -103,7 +103,7 @@ header nav ul li a{
   padding:10px 0;
 }
 #about p {
-  line-height:auto;
+  line-height:24px;
   width:600px;
   padding-left: 300px;
 }
