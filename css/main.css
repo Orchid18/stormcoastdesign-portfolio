@@ -117,13 +117,17 @@ header nav ul li a{
   text-align: center;
 }
 #portfolio .full-width {
-  padding:170px 0;
+  padding:150px 0;
 }
 #portfolio h2, p {
   color:#3e280d;
 }
+#portfolio h2{
+  padding-bottom: 20px;
+}
 #portfolio h3{
   color:#72744f;
+  padding-top: 10px;
 }
 #portfolio img{
   border:5px solid #769556;
