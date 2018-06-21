@@ -65,6 +65,9 @@ header nav ul li a{
   text-decoration: none;
   text-transform: lowercase;
   font-size: 20px;
+  color: #769556;
+}
+header nav ul li a:hover{
   color: #2a4721;
 }
 /*****INTRO*****/
@@ -132,6 +135,9 @@ header nav ul li a{
 #portfolio img{
   border:5px solid #769556;
 }
+#portfolio img:hover{
+  opacity:.4;
+}
 /*****CONTACT*****/
 #contact {
   height: 650px;
@@ -166,6 +172,9 @@ color:white;
 }
 #contact ul img {
     padding-right: 35px;
+}
+#contact ul img:hover {
+    opacity:.4;
 }
 /*****FOOTER*****/
 footer {
