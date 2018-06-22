@@ -115,22 +115,25 @@ header nav ul li a:hover{
 }
 /*****PORTFOLIO*****/
 #portfolio {
-  height: 850px;
+  height: 1000px;
   margin:0 auto;
   text-align: center;
 }
 #portfolio .full-width {
-  padding:150px 0;
+  padding:80px 0;
 }
-#portfolio h2, p {
+#portfolio h2{
   color:#3e280d;
 }
 #portfolio h2{
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
-#portfolio h3{
+#portfolio p{
   color:#72744f;
-  padding-top: 10px;
+  font-weight: bold;
+}
+#portfolio p span{
+  font-weight: normal;
 }
 #portfolio img{
   border:5px solid #769556;
