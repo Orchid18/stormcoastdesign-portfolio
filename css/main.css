@@ -137,9 +137,10 @@ header nav ul li a:hover{
 }
 #portfolio img{
   border:5px solid #769556;
+  opacity:.8;
 }
 #portfolio img:hover{
-  opacity:.4;
+  opacity:1;
 }
 /*****CONTACT*****/
 #contact {
@@ -175,9 +176,10 @@ color:white;
 }
 #contact ul img {
     padding-right: 35px;
+    opacity:.6;
 }
 #contact ul img:hover {
-    opacity:.4;
+    opacity:1;
 }
 /*****FOOTER*****/
 footer {
