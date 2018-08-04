@@ -1,92 +1,124 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http.equiv = "x-ua-compatible" content = "ie=edge">
-        <title>nancy swienton | developer</title>
-        <meta name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
-    </head>
-    <body>
-      <header>
-        <div class="full-width">
-          <p><span>nancy swienton</span> | developer</p>
-            <nav>
-              <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-              </ul>
-            </nav>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Storm Coast Design</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+<header class = "main-header clearfix">
+  <div class ="container">
+    <h1>storm <span>coast</span> design</h1>
+    <nav>
+      <ul class = "navlinks-desktop" onmouseover = "stext" onmouseout = "htext">
+        <li><a href = "#portfolio">portfolio</a></li>
+        <li><a href = "#contact">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class = "container">
+    <figure class = "tree-mobile">
+      <img src = "img/tree.jpg" alt = "coastal tree image">
+    </figure>
+    <figure class = "tree-desktop">
+      <img src= "img/tree.jpg" alt = "coastal tree image">
+      <p><span>I love to bring designs to life.</span><br><br>While working as an engineering designer and technician, I became fascinated with the dynamics and flexibility of code - and learning what makes a webpage come alive.  My love for what I do and my cultivated eye for detail will show through in my projects.</p>
+    </figure>
+  <nav>
+    <ul id = "navlinks-mobile" onmouseover = "stext" onmouseout = "htext">
+      <li><a href = "#about">about</a></li>
+      <li><a href = "#portfolio">portfolio</a></li>
+      <li><a href = "#contact">contact</a></li>
+    </ul>
+  </nav>
+</div>
+</header>
+<main>
+  <section id = "about">
+    <div class = "container">
+      <figure class= "portrait-mobile">
+        <img src="img/shell.png" alt="seashell image">
+      </figure>
+      <h2 class = "intro-font-mobile">I love to bring designs to life.</h2>
+      <p>While working as an engineering designer and technician, I became fascinated with the dynamics and flexibility of code - and learning what makes a webpage come alive.  My love for what I do and my cultivated eye for detail will show through in my projects.</p>
+    </div>
+  </section>
+  <section id= "portfolio">
+      <h2>My Portfolio</h2>
+    <div class = "container">
+        <div class="portfolio-item clearfix">
+        <a href="rogue_pickings/index.html" target="_blank"><img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings site thumbnail"/></a><p>Rogue Pickings Website<br><span>HTML5 & CSS</span></p>
+        </div>
+        <div class="portfolio-item clearfix">
+        <a href="election-map/index.html" target="_blank"><img src="img/election-map.png" alt="Election Map thumbnail"/></a><p>Interactive Election Map<br><span>Javascript/JQuery Exercise</span></p>
+        </div>
+        <div class="portfolio-item clearfix">
+        <a href="unplugged/index.html" target="_blank"><img src="img/unplugged-thumbnail.png" alt="Unplugged site thumbnail"/></a><p>Unplugged Project<br><span>Responsive Website</span></p>
+        </div>
+      </div>
+    <div class = "container">
+      <div class="portfolio-item clearfix">
+      <a href="lolcat_clock/index.html" target="_blank"><img src="img/lolcat-thumbnail.png" alt="Lolcat Clock site thumbnail"/></a><p>Lolcat Clock<br><span>Javascript Exercise</span></p>
+      </div>
+      <div class="portfolio-item clearfix">
+      <a href="markakeymedia.net/index.html" target="_blank"><img src="img/markakeymedia-thumbnail.png" alt="Mark Akey Media site thumbnail"/></a><p>Mark Akey Media Website<br><span>HTML5 & CSS Website</span></p></div>
+      <div class="portfolio-item clearfix">
+      <a href="magic_eightball/index.html" target="_blank"><img src="img/8Ball-thumbnail.png" alt="Magic 8 Ball site thumbnail"/></a><p>Magic 8 Ball Site<br><span>Javascript/JQuery Exercise</span></p>
+      </div>
+    </div>
+  </section>
+    <section id = "contact">
+      <h2>Contact Me</h2>
+      <div class="container">
+        <div class="contact-item clearfix">
+          <h3>Hire Me</h3>
+          <a href="mailto:nancy@stormcoastdesign.com" target="_blank">nancy[@]stormcoastdesign.com</a>
+        </div>
+        <div class="contact-item clearfix">
+          <h3>Follow Me</h3>
+            <ul>
+              <li><i class = "fab fa-linkedin"></i><a href="https://www.linkedin.com/in/nancyswienton" target="_blank"></a></li>
+              <li><i class = "fab fa-github"></i><a href="https://github.com/Orchid18" target="_blank"></a></li>
+              <li><i class = "fab fa-instagram"></i><a href="https://www.instagram.com/rvrunner/" target="_blank"></a></li>
+            </ul>
           </div>
-        </header>
-      <section id="intro">
-        <div class="full-width">
-          <h1>Looks like you found<br>your new <span>web developer.</span></h1>
         </div>
       </section>
-      <section id="about">
-        <div class="full-width">
-          <h2>About Me</h2>
-          <img src="img/placeholder.png" alt="Compass Terrace Photo">
-          <h3>I love to bring designs to life.</h3>
-          <p>While working as an engineering designer and technician, I became fascinated with the dynamics and flexibility of code.  Sensing a career change, I promptly enrolled in Skillcrush coding school and am having a blast learning what makes a webpage come alive.  My love for what I do and my cultivated eye for detail will show through in my projects.<br><br>I look forward to working with you!</p>
-        </div>
-        </section>
-        <section id="portfolio">
-          <div class="full-width">
-            <h2>My Portfolio</h2>
-              <div class="third-width">
-              <a href="rogue_pickings/index.html" target="_blank"><img src="img/rogue-pickings-thumbnail.png" alt="Rogue Pickings site thumbnail"/></a><p>Rogue Pickings Website<br><span>HTML5 & CSS from Photoshop Comp</span></p>
-              </div>
-              <div class="third-width">
-              <a href="election-map/index.html" target="_blank"><img src="img/election-map.png" alt="Election Map thumbnail"/></a><p>Interactive Election Map<br><span>Javascript/JQuery Exercise</span></p>
-              </div>
-              <div class="third-width">
-              <a href="unplugged/index.html" target="_blank"><img src="img/unplugged-thumbnail.png" alt="Unplugged site thumbnail"/></a><p>Unplugged Project<br><span>Responsive Website</span></p>
-              </div>
-            </div>
-            <div class="full-width">
-              <br><br>
-            </div>
-            <div class="full-width">
-              <div class="third-width">
-              <a href="lolcat_clock/index.html" target="_blank"><img src="img/lolcat-thumbnail.png" alt="Lolcat Clock site thumbnail"/></a><p>Lolcat Clock<br><span>Javascript Exercise</span></p>
-              </div>
-              <div class="third-width">
-              <a href="markakeymedia.net/index.html" target="_blank"><img src="img/markakeymedia-thumbnail.png" alt="Mark Akey Media site thumbnail"/></a><p>Mark Akey Media Website<br><span>HTML5 & CSS Website</span></p></div>
-              <div class="third-width">
-              <a href="magic_eightball/index.html" target="_blank"><img src="img/8Ball-thumbnail.png" alt="Magic 8 Ball site thumbnail"/></a><p>Magic 8 Ball Site<br><span>Javascript/JQuery Exercise</span></p>
-              </div>
-            </div>
-          </section>
-          <section id="contact">
-            <div class="full-width">
-              <h2>Let's Connect</h2>
-                <div class="third-width">
-                  <h3>Hire Me</h3>
-                  <p>nancy[@]stormcoastdesign.com</p>
-                </div>
-                <div class="third-width">
-                  <h3>Follow Me</h3>
-                    <ul>
-                      <li><a href="https://www.linkedin.com/in/nancyswienton" target="_blank"><img src="img/linkedin.png" alt="Linkedin icon" /></a></li>
-                      <li><a href="https://github.com/Orchid18" target="_blank"><img src="img/github.png" alt="Github icon" /></a></li>
-                      <li><a href="https://www.instagram.com/rvrunner/" target="_blank"><img src="img/instagram.png" alt="Instagram icon" /></a></li>
-                    </ul>
-                  </div>
-                  <div class="third-width">
-                    <h3>Meet Me</h3>
-                    <p>Portland, OR<br>
-                      Let's go to meetups together!</p>
-                  </div>
-                </div>
-              </section>
-              <footer>
-                  <p>Copyright 2018 | Nancy Swienton</p>
-              </footer>
-          </body>
-          </html>
+    </main>
+    <footer>
+      <p>Copyright 2018 | Storm Coast Design</p>
+    </footer>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
