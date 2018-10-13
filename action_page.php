@@ -1,9 +1,9 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "noreply@stormcoastdesign.com";
+$myemail  = "nancy@stormcoastdesign.com";
 
 /* Check all form inputs using check_input function */
-$yourname = check_input($_POST['yourname'], "  Please enter your name");
+$yourname = check_input($_POST['yourname'], "Please enter your name");
 $email    = check_input($_POST['email'], "Please enter your email");
 $website  = check_input($_POST['website']);
 $comments = check_input($_POST['comments']);
