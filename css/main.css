@@ -133,13 +133,8 @@ textarea {
      width:100%;
    }
 
-   ul{
-     list-style: none;
-     text-align: center;
-   }
-
-   ul li{
-     display: inline-block;
+   nav ul li{
+     display:inline-block;
    }
 
    ul li a{
@@ -228,23 +223,30 @@ textarea {
      max-width: 400px;
    }
 
-
-   .about-intro{
+   ul.about-intro{
      height: 40px;
      text-align: left;
    }
 
-   .about-intro h3{
+   ul.about-intro h3{
      font-family: 'Quattrocento', serif;
      font-size: 1.2em;
    }
 
-   .about-intro ul{
+   ul.about-intro{
      padding-left: 0;
    }
 
-   .about-intro ul li{
-     padding-right:20px;
+   ul.about-intro li{
+     padding-right:10px;
+     display: inline-block;
+   }
+
+   #bulletpoints{
+     display: block;
+     list-style: circle;
+
+     padding-left: 20px;
    }
 
    /******Portfolio***********************************************/
