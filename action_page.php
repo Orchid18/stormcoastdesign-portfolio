@@ -65,6 +65,9 @@ function show_error($myError)
 
     <b>Please correct the following error:</b><br />
     <?php echo $myError; ?>
+    <div class = "button">
+      <a href = "index.htm" class = "btn btn-first">Go Back</a>
+    </div>
 
     </body>
     </html>
