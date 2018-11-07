@@ -157,7 +157,16 @@ textarea {
      margin-bottom: 60px;
    }
 
-   .hero{
+   .header-content-examples{
+     background: url(../img/header-bg.png);
+     background-repeat: no-repeat;
+     background-position:50% 0%;
+     background-color: #ffffff;
+     margin-bottom: 60px;
+   }
+
+   .hero,
+   .hero-examples{
      width:100%;
      min-height:150px;
      margin-bottom:40px;
@@ -170,20 +179,33 @@ textarea {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
    }
 
-   .hero-filter{
+   .hero-filter,
+   .hero-filter-examples{
      background-color: rgba(255,255,255,0.8);
      min-height:150px;
      width:100%;
      padding:15% 5%;
    }
 
-   #hero-text{
-     display: block;
-     color:black;
+   .hero-examples{
+     background-image:none;
+   }
+
+   .hero-filter-examples{
+     background-color: rgba(255,255,255,0.3);
+     padding:5% 0;
    }
 
    #hero-text *{
      display:block;
+     color:black;
+     margin:0 auto;
+     text-align: center;
+     line-height: 1.3em;
+   }
+
+   #hero-text-examples *{
+     color:black;
      margin:0 auto;
      text-align: center;
      line-height: 1.3em;
@@ -194,6 +216,12 @@ textarea {
      padding-bottom: 20px;
      font-size: 1.5em;
      font-stretch: extra-expanded;
+   }
+
+   #hero-text-examples p{
+     text-shadow: 2px 2px 8px #ffffff;
+     padding-bottom: 20px;
+     font-size: 1.5em;
    }
 
 
@@ -263,11 +291,18 @@ textarea {
 
    .portfolio-wrapper{
      display:block;
-     margin:0 auto;
      max-width: 228px;
      border:2px solid #c3c3c3;
      margin:20px auto;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+     overflow:hidden;
+     position: relative !important;
+     background: #d0d0d0;
+     cursor:pointer;
+   }
+
+   .hero-filter-examples .portfolio-wrapper{
+     margin:20px 30px;
    }
 
    .portfolio-wrapper img{
@@ -277,12 +312,6 @@ textarea {
      transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
    }
 
-   .portfolio-wrapper {
-   	overflow:hidden;
-   	position: relative !important;
-   	background: #666;
-   	cursor:pointer;
-   }
 
    .label {
    	position: absolute;
