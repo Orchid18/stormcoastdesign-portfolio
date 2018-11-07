@@ -198,14 +198,13 @@ textarea {
 
    #hero-text *{
      display:block;
-     color:black;
      margin:0 auto;
      text-align: center;
      line-height: 1.3em;
    }
 
    #hero-text-examples *{
-     color:black;
+     color:#000000;
      margin:0 auto;
      text-align: center;
      line-height: 1.3em;
@@ -226,23 +225,23 @@ textarea {
 
 
    .button{
-     background:black;
      width:45%;
      height:2em;
      max-width: 150px;
-   }
-
-   .button:hover{
-     border:2px solid black;
+     border:2px solid #000000;
      background: none;
    }
 
+   .button:hover{
+     background:#000000;
+   }
+
    .button a{
-     color:#ffffff;
+     color:#000000;
    }
 
    .button a:hover{
-     color:black;
+     color:white;
    }
 
    .about-item{
@@ -415,7 +414,7 @@ textarea {
    #submit {
      text-align: center;
      color:#ffffff;
-     background:black;
+     background:#000000;
      width:45%;
      height:2em;
      max-width: 150px;
@@ -424,8 +423,8 @@ textarea {
 
    #submit:hover{
      background:none;
-     border:2px solid black;
-     color:black;
+     border:2px solid #000000;
+     color:#000000;
    }
 
 
