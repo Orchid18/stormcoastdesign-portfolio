@@ -105,6 +105,10 @@ textarea {
      font-size: 16px;
    }
 
+   html{
+     color: #d0d0d0;
+   }
+
    .container{
      max-width: 940px;
    }
@@ -113,7 +117,7 @@ textarea {
      background: url(../img/header-bg.png);
      background-repeat: no-repeat;
      background-position:top;
-     background-color: #ffffff;
+     background-color: #d0d0d0;
      height:auto;
      line-height: 30px;
    }
@@ -126,11 +130,15 @@ textarea {
      margin-top:40px;
      width:100%;
      text-align: center;
+     color:#ffffff;
+     font-weight: bold;
+     text-shadow: 2px 2px 8px #000000;
    }
 
    nav{
      float:left;
      width:100%;
+     text-align: center;
    }
 
    nav ul li{
@@ -153,15 +161,15 @@ textarea {
      background: url(../img/header-bg.png);
      background-repeat: no-repeat;
      background-position:50% -40%;
-     background-color: #ffffff;
-     margin-bottom: 60px;
+     background-color: #d0d0d0;
+     padding-bottom: 60px;
    }
 
    .header-content-examples{
      background: url(../img/header-bg.png);
      background-repeat: no-repeat;
      background-position:50% 0%;
-     background-color: #ffffff;
+     background-color: #d0d0d0;
      margin-bottom: 60px;
    }
 
@@ -181,7 +189,7 @@ textarea {
 
    .hero-filter,
    .hero-filter-examples{
-     background-color: rgba(255,255,255,0.8);
+     background-color: rgba(255,255,212,0.8);
      min-height:150px;
      width:100%;
      padding:15% 5%;
@@ -192,7 +200,7 @@ textarea {
    }
 
    .hero-filter-examples{
-     background-color: rgba(255,255,255,0.3);
+     background-color: rgba(255,255,212,0.3);
      padding:5% 0;
    }
 
@@ -229,19 +237,19 @@ textarea {
      height:2em;
      max-width: 150px;
      border:2px solid #000000;
-     background: none;
+     background: #000000;
    }
 
    .button:hover{
-     background:#000000;
+     background:#ffffff;
    }
 
    .button a{
-     color:#000000;
+     color:#ffffff;
    }
 
    .button a:hover{
-     color:white;
+     color:#000000;
    }
 
    .about-item{
@@ -284,7 +292,7 @@ textarea {
      background-position:top;
      padding:60px 0;
      background-color: #d0d0d0;
-     border-bottom: 1px solid #333343;
+     /*border-bottom: 1px solid #333343;*/
    }
 
 
@@ -361,6 +369,7 @@ textarea {
 
    .contact{
      padding:40px 0;
+     background-color: #d0d0d0;
    }
 
    .contact h4{
@@ -380,11 +389,12 @@ textarea {
 
    .contact-item a:hover{
      text-decoration: none;
-     color:#d0d0d0;
+     color:#ffffff;
    }
 
+
    #contact-me-plz span{
-     color:#a0a0a0;
+     color:#ffffff;
      font-weight: 700;
    }
 
@@ -394,8 +404,8 @@ textarea {
    #website{
      width:85%;
      line-height: 40px;
-     background-color: #d0d0d0;
-     border:1px solid #ffffff;
+     background-color: #f0f0f0;
+     border:1px solid #787878;
      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
      margin:0 0 15px 0;
      padding-left: 10px;
@@ -404,8 +414,8 @@ textarea {
    #comments{
      width:85%;
      height: 150px;
-     background-color: #d0d0d0;
-     border:1px solid #ffffff;
+     background-color: #f0f0f0;
+     border:1px solid #787878;
      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
      margin:0 0 25px 0;
      padding-left: 10px;
@@ -433,6 +443,7 @@ textarea {
    footer{
      height:auto;
      line-height: 30px;
+     background-color: #d0d0d0;
    }
 
 
@@ -592,7 +603,7 @@ textarea {
 /*********About & Portfolio*****************************/
 
 #portfolio{
-  background-color: #ffffff;
+  background-color: #d0d0d0;
   padding:40px 0 60px 0;
   border:none;
 }
